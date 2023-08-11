@@ -12,11 +12,10 @@ pipeline {
         sh "echo Run a command"
       }
     }
-    stage ('Deploy') {
-       steps {
-         sh "echo Deploying the application'
-       }
+    stage('Deploy') {
+            steps {
+                sh 'echo Deploying the application'
+            }
+        }
     }
-    }
-  }
 }
